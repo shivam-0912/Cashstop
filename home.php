@@ -59,6 +59,16 @@ $_SESSION["gpay"]=$row["gpay"];
                 color:white;
                 font-size:15px;
             }
+             .image{
+                height:30vh;
+                width:100%;
+               background:url("giphy.gif") center center ;
+               text-align:center;
+               font-size:50px;
+               padding-top:5vh;
+               line-height:50px;
+               color:red;
+            }
         </style>
     </head>
     <body>
@@ -98,6 +108,11 @@ $_SESSION["gpay"]=$row["gpay"];
             <h1>Home</h1>
         </div>
         <div class="maincontainer">
+                       <div class="image">
+           <marquee scrolldelay="1">CASHSTOP</marquee>
+           <marquee scrolldelay="1"><span style="font-size:25px; color:white"> Best site to maintain account.</span></marquee>
+           
+           </div><br>
             <span id="cash"><b>Cashstop</b></span> is an app which can be used for maintaining account(khaata) with your family,friends or anyone.With the help of this app you will not forget how much you owe to others and how much others owe to you.
             <h2 id="cash">Features</h2>
             <p>1. The app can be accessed from mobile also.</br>
