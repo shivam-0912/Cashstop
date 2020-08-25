@@ -1,0 +1,71 @@
+.alert-success{
+    background-color:#A98739;
+    color:white;
+    border:none;
+}
+body{
+    font-family: Arvo, serif;
+    background:url("images/bg.jpg") center center ;
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+    
+    background-attachment: fixed;
+}
+#header{
+    margin-top:50px;
+    text-align: center;
+    color: white;
+}
+#heading{
+    font-size: 60px;
+}
+#tagline{
+    font-size: 15px;
+    color: #A98739;
+}
+.container{
+    margin-top: 80px;
+    text-align: center;
+    width: 35vw;
+    color: white;
+   
+}
+#loginpassword,#loginemail{
+    height: 40px;
+}
+#login,#register{
+    height: 40px;
+    width: 15vw;
+    background:#A98739;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#registernotify,#loginnotify{
+    margin-top: 10px;
+}
+#linkregister,#linklogin{
+    color:#A98739 ;
+}
+#instruct{
+    font-size: 10px;
+    color:#A98739 ;
+}
+@media (max-width:768px){
+.container{
+    margin-top: 80px;
+    text-align: center;
+    width:80vw;
+    color: white;
+   
+}
+#login,#register{
+    height: 40px;
+    width: 60vw;
+    background:#A98739;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+}
