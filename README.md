@@ -20,4 +20,4 @@ The app is made using PHP as backend and mySQL as the DBMS.
 - PHP
 - mySQL
 
-**To view website visit :** http://random0505.000webhostapp.com/
+**To view website visit :** http://random2707.000webhostapp.com/
